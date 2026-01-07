@@ -1,0 +1,3 @@
+[submodule "paip-lisp"]
+	path = paip-lisp
+	url = https://github.com/norvig/paip-lisp
