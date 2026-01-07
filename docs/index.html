@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PAIP in MeTTa</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Paradigms of Artificial Intelligence Programming - MeTTa Edition">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="./css/custom.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'PAIP-MeTTa',
+      repo: 'https://github.com/robert-johansson/paip-metta',
+      loadSidebar: true,
+      subMaxLevel: 3,
+      coverpage: true,
+      auto2top: true,
+
+      // Custom syntax highlighting for MeTTa
+      plugins: [
+        function(hook) {
+          hook.afterEach(function(html) {
+            // Add MeTTa language class to code blocks
+            return html.replace(/<pre[^>]*><code class="lang-metta">/g,
+              '<pre><code class="language-metta">');
+          });
+        }
+      ]
+    }
+  </script>
+  <!-- Docsify -->
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+
+  <!-- Prism for syntax highlighting -->
+  <script src="//unpkg.com/prismjs/components/prism-lisp.min.js"></script>
+
+  <!-- Custom MeTTa highlighter -->
+  <script src="./js/highlight-metta.js"></script>
+
+  <!-- Search plugin -->
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+
+  <!-- Copy code button -->
+  <script src="//unpkg.com/docsify-copy-code"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+/* Custom styles for PAIP-MeTTa */
+
+/* MeTTa syntax highlighting colors */
+.token.metta-comment {
+  color: #6a737d;
+  font-style: italic;
+}
+
+.token.metta-variable {
+  color: #e36209;
+}
+
+.token.metta-execute {
+  color: #d73a49;
+  font-weight: bold;
+}
+
+.token.metta-type-decl {
+  color: #6f42c1;
+}
+
+.token.metta-equality {
+  color: #005cc5;
+}
+
+.token.metta-string {
+  color: #032f62;
+}
+
+.token.metta-number {
+  color: #005cc5;
+}
+
+.token.metta-keyword {
+  color: #d73a49;
+}
+
+.token.metta-builtin {
+  color: #6f42c1;
+}
+
+/* Code block styling */
+pre[data-lang="metta"] {
+  background-color: #f6f8fa;
+  border-radius: 6px;
+}
+
+code.language-metta {
+  font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+}
+
+/* Sidebar customization */
+.sidebar {
+  background-color: #fafbfc;
+}
+
+.sidebar-nav li a {
+  color: #24292e;
+}
+
+.sidebar-nav li a:hover {
+  color: #0366d6;
+}
+
+/* Cover page styling */
+.cover-main {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.cover h1 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+th, td {
+  border: 1px solid #dfe2e5;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f6f8fa;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #f6f8fa;
+}
+
+/* Blockquote for epigraphs */
+blockquote {
+  border-left: 4px solid #667eea;
+  padding-left: 1em;
+  margin-left: 0;
+  font-style: italic;
+  color: #6a737d;
+}
+
+/* Inline code */
+code:not([class*="language-"]) {
+  background-color: #f6f8fa;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}

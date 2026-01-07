@@ -1,0 +1,15 @@
+# Local development
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Claude Code local files
+.claude/
+.mcp.json
+
+# MeTTa tools (local)
+metta-claude-tools/
+
+# OS files
+.DS_Store
