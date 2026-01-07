@@ -9,7 +9,7 @@
 
 **Part II: Early AI Programs**
 * [Chapter 4 - GPS: The General Problem Solver](chapter4.md)
-* Chapter 5 - ELIZA: Pattern Matching Dialogue *(planned)*
+* [Chapter 5 - ELIZA: Pattern Matching Dialogue](chapter5.md)
 * Chapter 6 - Building Software Tools *(planned)*
 * Chapter 7 - STUDENT: Solving Algebra Word Problems *(planned)*
 * Chapter 8 - Symbolic Mathematics *(planned)*
