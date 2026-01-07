@@ -114,7 +114,7 @@ ELIZA: Tell me more about your family
 
 ---
 
-### Chapter 6: Building Software Tools
+### Chapter 6: Building Software Tools ✓ COMPLETE
 *Adapted from PAIP Chapter 6*
 
 **Theme:** Reusable tools for AI programming
@@ -479,8 +479,8 @@ Output: 162
 | 1 | Introduction to MeTTa | ✅ Complete | - |
 | 2 | A Simple MeTTa Program | 📝 Planned | Medium |
 | 4 | GPS | ✅ Complete | - |
-| 5 | ELIZA | 📝 Planned | **High** |
-| 6 | Building Software Tools | 📝 Planned | Medium |
+| 5 | ELIZA | ✅ Complete | - |
+| 6 | Building Software Tools | ✅ Complete | - |
 | 7 | STUDENT | 📝 Planned | Medium |
 | 8 | Symbolic Mathematics | 📝 Planned | Low |
 | 11 | Logic Programming | 📝 Planned | **High** |
@@ -491,7 +491,7 @@ Output: 162
 | 19 | Intro to NLP | 📝 Planned | Medium |
 | 20 | Unification Grammars | 📝 Planned | Low |
 
-**Recommended next chapters:** 5 (ELIZA), 11 (Logic Programming), or 14 (Knowledge Representation)
+**Recommended next chapters:** 11 (Logic Programming), 14 (Knowledge Representation), or 7 (STUDENT)
 
 ---
 

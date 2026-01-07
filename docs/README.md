@@ -59,7 +59,13 @@ metta script.metta
 
 - [Chapter 1: Introduction to MeTTa](chapter1.md) - Basic syntax, pattern matching, and core concepts
 
-*More chapters coming soon...*
+### Part II: Early AI Programs
+
+- [Chapter 4: GPS - The General Problem Solver](chapter4.md) - Means-ends analysis and backward chaining
+- [Chapter 5: ELIZA - Pattern Matching Dialogue](chapter5.md) - Building a chatbot with pattern matching
+- [Chapter 6: Building Software Tools](chapter6.md) - Generic pattern matcher and search algorithms
+
+See the [full outline](outline.md) for planned chapters.
 
 ## About This Project
 
